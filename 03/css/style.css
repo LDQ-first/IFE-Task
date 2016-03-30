@@ -1,0 +1,75 @@
+
+*{
+	margin:0;
+	padding:0;
+}
+
+li{
+	list-style: none;
+}
+
+body{
+	background: #FFF;
+	width:100%;
+	min-width: 800px;
+}
+
+
+.container{
+	margin:30px;
+	border:1px solid #999;
+	overflow: hidden;
+}
+
+div{
+	padding: 20px;
+	margin:20px;
+	background: #eee;
+	border:1px solid #999;	
+	margin-top:0;
+}
+
+
+
+.left{
+	float: left;
+	width:180px;
+	background: #FFF;
+	overflow: hidden;
+}
+
+.left img{
+	float: left;
+	width:45%;
+	height:45%;
+}
+
+.left h1{
+	float: left;
+	font-size: 16px;
+}
+
+.center{
+	/* float: left; */
+	margin:0 184px 0 264px;
+	background: #FFF;
+}
+
+.center p{
+	text-indent:2em;
+	line-height: 30px;
+	padding: 10px;
+}
+
+.right{
+	float: right;
+	width:80px;
+	background: #FFF;
+}
+
+.right img{
+	width:95%;
+	height:95%;
+}
+
+

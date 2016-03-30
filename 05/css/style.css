@@ -1,0 +1,231 @@
+
+
+*{
+	margin:0;
+	padding:0;
+}
+
+a{text-decoration:none;}
+li{list-style: none;}
+img{border: none;}
+
+
+body{
+	font-family: "Microsoft YaHei";
+	background: #eee;
+
+}
+
+/*-------------------导航------------------------*/
+
+.hd{
+	background:#000;
+	height:80px;
+	width:100%;
+	min-width: 1000px;
+}
+
+.hd .logo{
+	float:left;
+	margin-left: 200px;
+	
+}
+
+.hd .logo img{
+	height:80px;
+	margin:0;
+}
+
+
+.hd nav{
+	float:right;
+	margin-right:100px;
+	height:80px;
+	line-height: 80px;
+}
+
+.hd nav ul li{
+	float:left;
+}
+
+
+.hd nav ul li a{
+	color:#FFF;
+	padding:0 20px;
+	
+}
+
+
+/*----------------内容----------------------*/
+
+.content{
+	overflow: hidden;
+	width: 100%;
+	min-width: 1000px;
+}
+
+
+
+
+
+.left{
+	margin:40px 0px 40px 30px;
+	overflow: hidden;
+}
+
+
+
+.right{
+	float:right;
+	width:650px;
+	margin:40px 20px;
+}
+
+
+
+
+
+
+article{
+	background:#FFF;
+	margin:40px 0;
+	padding:40px;
+	border:5px;
+	border-right-style:ridge;
+	border-bottom-style:ridge;
+	border-radius:60px;
+	font-size: 16px;
+	line-height: 32px;
+}
+
+
+h2,h3,h4,p,img{
+	margin:20px;
+}
+
+article>p{
+	text-indent:2em;
+
+}
+
+.pic{
+	overflow: hidden;
+}
+
+
+.pic ul li{
+	width:200px;
+	padding:20px;
+	margin:10px;
+	border:1px solid #333;
+	float: left;
+}
+
+.pic ul li p{
+	text-align: center;
+}
+
+.pic ul li img{
+	padding:0 10px;
+}
+
+/*-----------表格---------------*/
+
+article ol li{
+	list-style: decimal;
+	margin-left:50px;
+}
+
+article table{
+	width:100%;
+	border-collapse:collapse;
+}
+
+article table thead{
+	background:#333;
+}
+
+article table tfoot{
+	background: #aaa;
+}
+
+
+/*----------------表单------------------*/
+
+
+
+
+ 
+
+.last h2{
+	border-left:3px solid #ccc;
+	padding-left: 20px;
+}
+
+.last form{
+	margin:20px auto;
+	
+}
+
+.last form .pad{
+	padding:0 50px;
+}
+
+
+.last form input,.last form p{
+	color:#ccc;
+}
+
+.last form p{
+	margin:0 120px;
+}
+
+.last form .password{
+	padding-left: 2em;
+}
+
+.last form .sex,.city,.hobby{
+	padding-left:4em;
+}
+
+.last form .des{
+	position:relative;
+	margin-bottom:120px;
+}
+
+.last form .des label{
+	position:absolute;
+	top:0;
+	left:35px;
+}
+
+.last form .des textarea{
+	position: absolute;
+	top:0;
+	left:115px;
+}
+
+
+
+.last form .sub input{
+	width:100%;
+	height:50px;
+	font-size: 24px;
+	background: #3355D0;
+	border-radius:20px;
+	color:#FFF;
+
+}
+
+
+
+/*---------------底部----------------*/
+footer p{
+	background: #000;
+	color:#FFF;
+	height:100px;
+	line-height: 100px;
+	width:100%;
+	text-align: center;
+	margin:0;
+}

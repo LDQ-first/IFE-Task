@@ -1,0 +1,35 @@
+*{
+	margin:0;
+	padding: 0;
+}
+
+
+.center{
+	width:400px;
+	height:200px;
+	background: #CCC;
+	position:absolute;
+	top:50%;
+	left:50%;
+	margin:-120px 0 0 -240px;
+	overflow: hidden;
+}
+
+.a,.b{
+	width:100px;
+	height:100px;
+	background: #fc0;
+	border-radius:50%;
+}
+
+.a{
+	position:absolute;
+	top:-50px;
+	left: -50px;
+}
+
+.b{
+	position:absolute;
+	bottom:-50px;
+	right:-50px ;
+}
