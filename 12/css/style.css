@@ -1,0 +1,202 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font: 14px/1.5 "Microsoft YaHei",arial,sans-serif,'宋体';
+	background-color: #f2f2f2;
+    color: #333;
+    max-width: 500px;
+    margin:0 auto;
+    background: #D8EFF7;
+}
+
+li{
+	list-style: none;
+}
+
+a{
+	text-decoration: none;
+}
+
+/*---------------table-----------------------*/
+
+
+
+.table{
+	margin:20px;
+	padding:20px 0;
+	background: #FFF;
+}
+
+
+.table table{
+	margin:0 auto;
+	border-collapse:separate;
+}
+
+
+
+.table table tr td{
+	text-align: left;
+} 
+
+
+.table table .head{
+	color:#FFF;
+	background: #000;
+}
+
+
+
+.table table .content tr:nth-child(even){
+	background: #ccc;
+}
+
+
+
+.table table .content tr:nth-child(1){
+	color:red;
+}
+
+
+.table table .content tr:nth-child(2){
+	color:red;
+}
+
+
+.table table .content tr:nth-child(3){
+	color:red;
+}
+
+
+
+
+
+
+
+
+/*---------------input-----------------------*/
+
+
+
+.input{
+	margin:20px;
+	background: #BFE5F2;
+}
+
+
+.input .longer{
+	margin:20px auto;
+	width:200px;
+	transition:2s;
+}
+
+
+
+
+.input .longer:focus{
+	width:400px;
+}
+
+
+
+
+/*---------------box-----------------------*/
+
+
+
+
+.box{
+	margin:20px;
+	background: #BFE5F2;
+	
+}
+
+
+.banner{
+	border: 1px solid #9cc5ef;
+	width:300px;
+	height: 200px;
+	margin: auto;
+	overflow: hidden;
+	position: relative;
+}
+
+
+.banner .slider{
+	color:#FFF;
+	font: bold 100px/200px "Microsoft Yahei";
+	width:300%;
+
+}
+
+
+.banner .slider li:nth-child(1){
+	background: #50B9DC;
+}
+
+
+
+
+.banner .slider li:nth-child(2){
+	background: #289FC7;
+}
+
+
+
+
+.banner .slider li:nth-child(3){
+	background: #1F7B9D;
+}
+
+
+.banner .slider li{
+	float:left;
+	width:300px;
+	height:200px;
+	display:flex;
+	justify-content:center;
+	position: absolute;
+	top: 0;
+	left:0;
+}
+
+
+.banner .slider li:target{
+	z-index: 1;
+	animation: scroll 1s ease-out;
+}
+
+@keyframes scroll {
+  0% {
+    left: -100%;
+  }
+  100% {
+    left: 0%;
+  }
+}
+
+
+
+.banner .controll{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	z-index:2;
+	
+}
+
+.banner .controll a{
+	float: left;
+	width:30px;
+	height:30px;
+	background: rgba(255,255,255,0.5);
+	margin-right: 10px;
+	display:flex;
+	justify-content:center;
+	align-items: center;
+	border-radius: 50%;
+	color: #000;
+}
