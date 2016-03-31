@@ -1,0 +1,236 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+
+html{
+	font-size: 100px;
+
+}
+
+body{
+	font: 16px/1.5 "微软雅黑","华文黑体","文泉驿微米黑",Arial;
+	max-width: 20rem;
+	min-width: 3.2rem;
+	background: #00CCFF;
+	/* display:flex;
+	flex-direction:column;
+	justify-content:space-between; */
+		
+}
+
+a{
+	text-decoration: none;
+	color: #000;
+  
+}
+
+li{
+	list-style: none;
+}
+
+
+
+/*----------------header---------------*/
+
+header{
+	background: rgba(51, 153, 255,0.3);
+	height:0.6rem;
+	padding:0 0.1rem;
+}
+
+
+header nav{
+	height: 100%;
+	display: flex;	
+	justify-content:space-around;
+	
+}
+
+
+header nav li{
+	float:left;
+	height: 100%;
+	
+}
+
+header nav li a{
+	 display:block; 
+	width:100%;
+	height: 100%;
+	display: flex;	
+	align-items: center;
+	box-sizing:border-box;
+	border-top: 4px solid transparent;
+	border-bottom: 4px solid transparent;
+
+
+}
+
+header nav li a:hover{
+	border-bottom: 4px solid #9999FF;
+	color:#FFF;
+}
+
+
+
+
+
+/*----------------container---------------*/
+
+
+.container{
+	width:100%;
+	padding-top: 0.3rem;
+}
+
+
+
+/*----------------title---------------*/
+
+
+.container .title{
+	width:100%;
+	height: 1.4rem;	
+
+}
+
+
+.container .title h1{
+	width:100%;
+	height: 0.4rem;
+	display: flex;	
+	align-items: center;
+	justify-content:center; 
+}
+
+
+.container .title h2{
+	width:100%;
+	height: 0.4rem;
+	display: flex;	
+	align-items: center;
+	justify-content:center; 
+	font-weight: normal;
+	font-size: 18px;
+}
+
+
+
+
+
+
+
+/*----------------task---------------*/
+
+
+
+.container .task{
+	width:80%;
+	margin:0.5rem auto 1rem;
+
+	border:12px solid #DDD;
+	padding:0.2rem;
+	border-radius: 20% 5%;
+	background:rgba(153, 153, 255 ,1);
+	transition:2s;
+}
+
+
+.container .task h3{
+	height: 0.6rem;
+	width:75%;
+	margin:0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: rgba(153, 204, 0 ,1);
+	border-radius: 0.3rem 0.1rem;
+	cursor: pointer;
+}
+
+.container .task h3.active{
+	background: rgba(0, 153, 255 ,1);
+}
+
+
+.container .task ul{
+	width:75%;
+	margin:0.1rem auto;
+	border:5px solid #FF9933;
+	display: none;
+
+}
+
+.container .task li{
+	text-align: center;
+	line-height: 0.5rem;
+	width:99%;
+	margin:0.05rem auto;
+	border-radius:0.25rem 0.1rem 0.1rem 0.25rem;
+	box-sizing:border-box;
+	background: rgba(102, 204, 255 ,1);
+}
+
+
+
+.container .task li a:hover{
+	color:#FF3300;
+
+}
+
+
+
+
+
+
+/*--------------------footer-----------------------*/
+
+
+footer{
+	background: #027EBC;
+	opacity: 0.7;
+	width:100%;
+	height:0.6rem;
+	display: flex;
+	justify-content: space-around;
+	position:fixed;
+	bottom:0rem;
+	font-weight:bold;
+	
+}
+
+
+
+footer span{
+	display: flex;
+	align-items: center;
+}
+
+footer span a:hover{
+	color:#FF6600;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
