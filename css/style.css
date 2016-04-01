@@ -82,7 +82,7 @@ header nav li a:hover{
 
 .container{
 	width:100%;
-	padding-top: 0.3rem;
+	padding-top: 0.5rem;
 }
 
 
@@ -92,7 +92,7 @@ header nav li a:hover{
 
 .container .title{
 	width:100%;
-	height: 1.4rem;	
+	height: 0.8rem;	
 
 }
 
@@ -128,7 +128,7 @@ header nav li a:hover{
 
 .container .task{
 	width:80%;
-	margin:0.5rem auto 1rem;
+	margin:0.2rem auto 1rem;
 
 	border:12px solid #DDD;
 	padding:0.2rem;
