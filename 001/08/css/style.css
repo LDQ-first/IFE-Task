@@ -9,7 +9,7 @@
 	margin: 0px;
 }
 
-.container:before,
+
 .container:after{
 	content: "";
 	display: block;
@@ -29,7 +29,7 @@
 }
 
 
-@media only screen and (min-width: 769px) {
+@media only screen and (min-width: 768px) {
 
 .col-md-1 {
 	width: 8.33%;
